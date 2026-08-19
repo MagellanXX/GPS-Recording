@@ -5,7 +5,7 @@ package.domain = org.gpstracker.app
 source.dir = .
 source.include_exts = py,png,jpg,kv,atlas
 version = 0.1
-requirements = python3,kivy,plyer
+requirements = python3,kivy==2.3.0,plyer,requests,urllib3,certifi,kivy-garden,kivy_garden.mapview
 orientation = portrait
 fullscreen = 0
 android.permissions = ACCESS_FINE_LOCATION,ACCESS_COARSE_LOCATION,ACCESS_BACKGROUND_LOCATION,FOREGROUND_SERVICE,FOREGROUND_SERVICE_LOCATION
